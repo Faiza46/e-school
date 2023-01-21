@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f0fff0;
+}
+
+.navbar-nav {
+    --bs-nav-link-color: rgb(0 0 0 / 96%);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-item:hover {
+    background-color: #21B573;
+    color: white;
+    border-radius: 20px;
+    transition: all 0.2s ease-in;
+
+}
+
+.nav-item:last-child .nav-link {
+    background-color: #21B573;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+
+}
+
+.navbar-brand img {
+    height: 60px;
+    width: 150px;
+    object-fit: contain;
+}
+
+.heading-text {
+    font-size: 60px;
+    color: black;
+}
+
+.heading-text span {
+    color: #21B573;
+}
+
+.get-button {
+    text-decoration: none;
+    background-color: #21B573;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+
+.get-button:hover {
+    border: 2px solid #21B573;
+    color: black;
+    background-color: white;
+    transition: all 0.3s ease-in;
+
+}
+
+.card {
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: rgba(99, 99, 99, 0.566) 0px 2px 8px 0px;
+    transition: all 0.3s ease;
+}
+
+.slider-image {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.online-course {
+
+    color: black;
+}
+
+.footer {
+    background-color: #56548c;
+    color: white;
+
+}
+
+.footer ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+
+
+}
